@@ -1,11 +1,11 @@
 {
-    "version": "2.3.0",
-    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.3.0.zip",
-    "sha256": "58c2291758c75495321560944bd8834a01f7ac0e2100226a8328e625af01c3c4",
+    "version": "2.3.1",
+    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.3.1.zip",
+    "sha256": "3220a2729be1da6d1b4afdea1aa268e8ffe520aff4634a4f566e6329d12de62b",
     "requires": "5.8",
     "tested": "7.1",
     "requires_php": "7.4",
     "released": "2026-11-18",
     "homepage": "https://detroitinternetmarketing.com/",
-    "changelog": "<h4>2.3.0</h4><ul><li>One-click updates: new versions now appear on the Plugins page with an Update button, like any other plugin.</li><li>Every update download is checked against its published SHA-256 fingerprint before installing; a mismatch is refused.</li><li>Updates come only from DIM&#039;s releases repository over HTTPS; WordPress.org is never asked about this plugin.</li></ul>"
+    "changelog": "<h4>2.3.1</h4><ul><li>Diagnostics shows whether the plugin is up to date and whether a newer version is waiting.</li><li>First release delivered through one-click updates.</li></ul>"
 }
