@@ -1,11 +1,11 @@
 {
-    "version": "2.3.1",
-    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.3.1.zip",
-    "sha256": "3220a2729be1da6d1b4afdea1aa268e8ffe520aff4634a4f566e6329d12de62b",
+    "version": "2.3.2",
+    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.3.2.zip",
+    "sha256": "bc190735dc5dbf77585bdfb3035cdd7204f7edd375f6bc021e83e018869c9536",
     "requires": "5.8",
     "tested": "7.1",
     "requires_php": "7.4",
     "released": "2026-11-18",
     "homepage": "https://detroitinternetmarketing.com/",
-    "changelog": "<h4>2.3.1</h4><ul><li>Diagnostics shows whether the plugin is up to date and whether a newer version is waiting.</li><li>First release delivered through one-click updates.</li></ul>"
+    "changelog": "<h4>2.3.2</h4><ul><li>Security review fixes.</li><li>Updates: only zips from DIM&#039;s releases folder are accepted; if the published fingerprint can&#039;t be confirmed at install time the update is refused instead of skipped; stricter manifest checks.</li><li>Texting: blocks Caribbean +1 countries, toll-free and premium numbers (SMS-fraud protection); numbers Twilio Lookup places outside the US/Canada are refused.</li><li>Sending is one-at-a-time per site so parallel requests can&#039;t exceed the hourly/daily limits.</li><li>Phone numbers and email addresses are scrubbed from stored error messages and alert emails.</li><li>Delivery webhook also checks the Twilio account ID and ignores unknown statuses.</li><li>Review links must be Google addresses and map embeds Google Maps embeds.</li><li>Removal: only pages containing nothing but this plugin&#039;s shortcode are trashed; staff logins&#039; content is reassigned to an administrator instead of deleted.</li><li>README no longer shipped in the plugin folder (it revealed the version publicly); minor PHP 8.x/9 hardening and escaping.</li></ul>"
 }
