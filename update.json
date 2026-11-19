@@ -1,11 +1,11 @@
 {
-    "version": "2.3.3",
-    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.3.3.zip",
-    "sha256": "8b9ce3b152ee0d416bb854c8a5ed34a0993c05ae566784a087a7df3b0b122f8b",
+    "version": "2.4.0",
+    "package": "https://raw.githubusercontent.com/DetroitInternetMarketingDev/dim-review-requests-releases/main/releases/dim-review-requests-2.4.0.zip",
+    "sha256": "0d68ceeda9524b6fdc7892dc28d3bb211ac76b52dae56e452b60f05418fd9e12",
     "requires": "5.8",
     "tested": "7.1",
     "requires_php": "7.4",
     "released": "2026-11-19",
     "homepage": "https://detroitinternetmarketing.com/",
-    "changelog": "<h4>2.3.3</h4><ul><li>&quot;Contact us&quot; button: when a location has a Contact page, the email and review page show a smaller outlined button under the Google button so unhappy customers can reach the office directly. It is shown to everyone and never replaces the Google button (Google review policy).</li><li>New setting: Contact button text (Settings &gt; Email).</li></ul>"
+    "changelog": "<h4>2.4.0</h4><ul><li>Staff terms of use: before a login can send, the person reads the client&#039;s terms and ticks &quot;I agree&quot;. The plugin records who agreed, when, from which IP address and the exact wording; editing the wording asks everyone again. Enforced on the server, not just the screen.</li><li>Settings &gt; Limits shows every sending login and whether they have agreed.</li><li>Uninstall removes the agreement records.</li></ul>"
 }
